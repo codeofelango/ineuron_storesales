@@ -1,0 +1,13 @@
+numpy
+Flask
+gunicorn
+sklearn
+pandas
+PyYAML
+evidently
+dill
+matplotlib
+dask
+kneed
+joblib
+-e .

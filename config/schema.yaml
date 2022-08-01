@@ -1,0 +1,49 @@
+columns:
+  Item_Identifier: category
+  Item_Weight: float
+  Item_Fat_Content: category
+  Item_Visibility: float
+  Item_Type: category
+  Item_MRP: float
+  Outlet_Identifier: category
+  Outlet_Establishment_Year : int
+  Outlet_Size: category
+  Outlet_Location_Type: category
+  Outlet_Type : category
+  Item_Outlet_Sales: float
+
+columns_cluster: 
+  - Outlet_Identifier
+  - Outlet_Establishment_Year
+  - Outlet_Size
+  - Outlet_Location_Type
+  - Outlet_Type
+
+
+categorical_columns:
+  - Item_Identifier
+  - Item_Fat_Content
+  - Item_Type
+  - Outlet_Type
+
+numerical_columns:
+- Item_Weight
+- Item_Visibility
+- Item_MRP
+- Outlet_Establishment_Year
+
+
+
+target_column: Item_Outlet_Sales
+
+# domain_value:
+#   ocean_proximity:
+#     - <1H OCEAN
+#     - INLAND
+#     - ISLAND
+#     - NEAR BAY
+#     - NEAR OCEAN
+
+
+
+  
