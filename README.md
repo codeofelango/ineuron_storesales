@@ -7,11 +7,11 @@ Data Description Variable - Description Item_Identifier - Unique product ID Item
 
 Deployed link:https://ineuronstoresalesprediction.herokuapp.com/
 ### Software and account Requirement.
-[SS Low_Level_Design.docx](https://github.com/codeofelango/ineuron_storesales/files/9238715/SS.Low_Level_Design.docx)
-[Wireframe.docx](https://github.com/codeofelango/ineuron_storesales/files/9238716/Wireframe.docx)
-[Detail Project Report.pptx](https://github.com/codeofelango/ineuron_storesales/files/9238718/Detail.Project.Report.pptx)
-[Architecture.docx](https://github.com/codeofelango/ineuron_storesales/files/9238719/Architecture.docx)
-[SS High_Level_Design.docx](https://github.com/codeofelango/ineuron_storesales/files/9238720/SS.High_Level_Design.docx)
+HLD:[SS Low_Level_Design.docx](https://github.com/codeofelango/ineuron_storesales/files/9238715/SS.Low_Level_Design.docx)
+Wirefram:[Wireframe.docx](https://github.com/codeofelango/ineuron_storesales/files/9238716/Wireframe.docx)
+Detail report:[Detail Project Report.pptx](https://github.com/codeofelango/ineuron_storesales/files/9238718/Detail.Project.Report.pptx)
+Architecture:[Architecture.docx](https://github.com/codeofelango/ineuron_storesales/files/9238719/Architecture.docx)
+LLD:[SS High_Level_Design.docx](https://github.com/codeofelango/ineuron_storesales/files/9238720/SS.High_Level_Design.docx)
 ![predictionj](https://user-images.githubusercontent.com/85941190/182282261-6bd44721-83b9-4cf1-bbf2-e3431925fee9.PNG)
 ![homepage](https://user-images.githubusercontent.com/85941190/182282267-7525fe24-36d9-4160-aa52-f6379e22a46a.PNG)
 ![log](https://user-images.githubusercontent.com/85941190/182282268-e3a2396b-ecaa-48c8-afe9-f31b56ba4525.PNG)
