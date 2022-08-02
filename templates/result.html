@@ -1,13 +1,32 @@
-{% extends "header.html" %}
+{% extends 'header.html' %}
 
-{% block head %} <title class="justify-content-center" style="text-align:center;">Sales details</title> {% endblock %}
+{% block head %}
 
 
-{% block body %}
-<div >
-<h2 style="text-align:center;">{{ context['Item_Outlet_Sales'] }}</h2>
-<form action="{{ url_for('predict')}}" class="form-group card-body" method="get" style="text-align:center;">
-    <button type="submit" class="btn btn-primary">Home</button>
-</form>
+<title>Store Item Sales predicted details</title>
+{% endblock %}
+
+{% block content %}
+
+<div class="row">
+   
+<div class="col-md-4 col-lg-4 col-sm-12">
+<div class="card">
+    <div class="card-header">
+       Predicted result
+    </div>
+    <div class="card-body">
+
+        <h5 class="card-title"></h5>
+        <p class="card-text"> {{value[0] }}</p>
+        <form action="{{ url_for('predict')}}" class="form-group card-body" method="get" style="text-align:center;">
+            <button type="submit" class="btn btn-primary">Home</button>
+        </form>        
+    </div>
 </div>
+</div>
+
+            
+</div>
+
 {% endblock %}

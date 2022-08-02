@@ -167,10 +167,9 @@ def predict():
                 PREDICTOR_DATA_KEY : prediction_data.get_housing_data_as_dict(),
                 ITEM_OUTLET_SALES: Item_Outlet_Sales,
             }
-            logging.info(f"context: {context}")
         except Exception as e:
             raise HousingException(e, sys) from e
-        return render_template('predict.html', context=context)
+        return render_template('result.html', context=context, value = Item_Outlet_Sales)
     return render_template("predict.html", context=context)
 
 

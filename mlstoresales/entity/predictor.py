@@ -88,11 +88,14 @@ class App_predictor:
             raise HousingException(e, sys) from e
 
     def predict(self, X):
+        print('enter predict')
         try:
             model_path = os.path.join(self.model_dir , "model.pkl")
             model = load_object(file_path=model_path)
+            print(model)
             logging.info(f"Best model: {model}")
             median_house_value = model.predict(X)
+            print(median_house_value)
             return median_house_value
         except Exception as e:
             raise HousingException(e, sys) from e
